@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fener" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" translatesAutoresizingMaskIntoConstraints="NO" id="e4U-Up-Ja0">
+                                <rect key="frame" x="61" y="277.66666666666669" width="271" height="297.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="297" id="ZLA-Fz-5hr"/>
+                                    <constraint firstAttribute="width" constant="271" id="mld-tS-4qx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afy-cG-ORQ">
+                                <rect key="frame" x="142" y="376" width="109" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="LH2-Oj-shl"/>
+                                    <constraint firstAttribute="height" constant="100" id="eCY-Z7-NOQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="on-off-button-2"/>
+                                <connections>
+                                    <action selector="flashlightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voB-oH-Kbg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Afy-cG-ORQ" firstAttribute="centerX" secondItem="e4U-Up-Ja0" secondAttribute="centerX" id="G17-CE-MV7"/>
+                            <constraint firstItem="Afy-cG-ORQ" firstAttribute="centerY" secondItem="e4U-Up-Ja0" secondAttribute="centerY" id="Spd-5D-LFU"/>
+                            <constraint firstItem="e4U-Up-Ja0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a5o-5J-hHl"/>
+                            <constraint firstItem="e4U-Up-Ja0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aGN-WA-Awb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.885496183206101" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="on-off-button-2" width="85.333335876464844" height="85.333335876464844"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

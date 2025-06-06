@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F17622112DF2000C00EC1ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17621F22DF2000B00EC1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17621F92DF2000B00EC1ED3;
+			remoteInfo = Fener;
+		};
+		F176221B2DF2000C00EC1ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17621F22DF2000B00EC1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17621F92DF2000B00EC1ED3;
+			remoteInfo = Fener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F17621FA2DF2000B00EC1ED3 /* Fener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17622102DF2000C00EC1ED3 /* FenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176221A2DF2000C00EC1ED3 /* FenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F17622222DF2000C00EC1ED3 /* Exceptions for "Fener" folder in "Fener" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F17621F92DF2000B00EC1ED3 /* Fener */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F17621FC2DF2000B00EC1ED3 /* Fener */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F17622222DF2000C00EC1ED3 /* Exceptions for "Fener" folder in "Fener" target */,
+			);
+			path = Fener;
+			sourceTree = "<group>";
+		};
+		F17622132DF2000C00EC1ED3 /* FenerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FenerTests;
+			sourceTree = "<group>";
+		};
+		F176221D2DF2000C00EC1ED3 /* FenerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FenerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17621F72DF2000B00EC1ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176220D2DF2000C00EC1ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17622172DF2000C00EC1ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17621F12DF2000B00EC1ED3 = {
+			isa = PBXGroup;
+			children = (
+				F17621FC2DF2000B00EC1ED3 /* Fener */,
+				F17622132DF2000C00EC1ED3 /* FenerTests */,
+				F176221D2DF2000C00EC1ED3 /* FenerUITests */,
+				F17621FB2DF2000B00EC1ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F17621FB2DF2000B00EC1ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17621FA2DF2000B00EC1ED3 /* Fener.app */,
+				F17622102DF2000C00EC1ED3 /* FenerTests.xctest */,
+				F176221A2DF2000C00EC1ED3 /* FenerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17621F92DF2000B00EC1ED3 /* Fener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17622232DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "Fener" */;
+			buildPhases = (
+				F17621F62DF2000B00EC1ED3 /* Sources */,
+				F17621F72DF2000B00EC1ED3 /* Frameworks */,
+				F17621F82DF2000B00EC1ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F17621FC2DF2000B00EC1ED3 /* Fener */,
+			);
+			name = Fener;
+			packageProductDependencies = (
+			);
+			productName = Fener;
+			productReference = F17621FA2DF2000B00EC1ED3 /* Fener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F176220F2DF2000C00EC1ED3 /* FenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17622282DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "FenerTests" */;
+			buildPhases = (
+				F176220C2DF2000C00EC1ED3 /* Sources */,
+				F176220D2DF2000C00EC1ED3 /* Frameworks */,
+				F176220E2DF2000C00EC1ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17622122DF2000C00EC1ED3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F17622132DF2000C00EC1ED3 /* FenerTests */,
+			);
+			name = FenerTests;
+			packageProductDependencies = (
+			);
+			productName = FenerTests;
+			productReference = F17622102DF2000C00EC1ED3 /* FenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F17622192DF2000C00EC1ED3 /* FenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F176222B2DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "FenerUITests" */;
+			buildPhases = (
+				F17622162DF2000C00EC1ED3 /* Sources */,
+				F17622172DF2000C00EC1ED3 /* Frameworks */,
+				F17622182DF2000C00EC1ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F176221C2DF2000C00EC1ED3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F176221D2DF2000C00EC1ED3 /* FenerUITests */,
+			);
+			name = FenerUITests;
+			packageProductDependencies = (
+			);
+			productName = FenerUITests;
+			productReference = F176221A2DF2000C00EC1ED3 /* FenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17621F22DF2000B00EC1ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F17621F92DF2000B00EC1ED3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F176220F2DF2000C00EC1ED3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F17621F92DF2000B00EC1ED3;
+					};
+					F17622192DF2000C00EC1ED3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F17621F92DF2000B00EC1ED3;
+					};
+				};
+			};
+			buildConfigurationList = F17621F52DF2000B00EC1ED3 /* Build configuration list for PBXProject "Fener" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17621F12DF2000B00EC1ED3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F17621FB2DF2000B00EC1ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17621F92DF2000B00EC1ED3 /* Fener */,
+				F176220F2DF2000C00EC1ED3 /* FenerTests */,
+				F17622192DF2000C00EC1ED3 /* FenerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17621F82DF2000B00EC1ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176220E2DF2000C00EC1ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17622182DF2000C00EC1ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17621F62DF2000B00EC1ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176220C2DF2000C00EC1ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17622162DF2000C00EC1ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17622122DF2000C00EC1ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17621F92DF2000B00EC1ED3 /* Fener */;
+			targetProxy = F17622112DF2000C00EC1ED3 /* PBXContainerItemProxy */;
+		};
+		F176221C2DF2000C00EC1ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17621F92DF2000B00EC1ED3 /* Fener */;
+			targetProxy = F176221B2DF2000C00EC1ED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F17622242DF2000C00EC1ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fener/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.Fener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17622252DF2000C00EC1ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fener/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.Fener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17622262DF2000C00EC1ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F17622272DF2000C00EC1ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17622292DF2000C00EC1ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.FenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fener.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fener";
+			};
+			name = Debug;
+		};
+		F176222A2DF2000C00EC1ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.FenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fener.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fener";
+			};
+			name = Release;
+		};
+		F176222C2DF2000C00EC1ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.FenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fener;
+			};
+			name = Debug;
+		};
+		F176222D2DF2000C00EC1ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4284V9WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egeakdo.FenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fener;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17621F52DF2000B00EC1ED3 /* Build configuration list for PBXProject "Fener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17622262DF2000C00EC1ED3 /* Debug */,
+				F17622272DF2000C00EC1ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17622232DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "Fener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17622242DF2000C00EC1ED3 /* Debug */,
+				F17622252DF2000C00EC1ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17622282DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "FenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17622292DF2000C00EC1ED3 /* Debug */,
+				F176222A2DF2000C00EC1ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F176222B2DF2000C00EC1ED3 /* Build configuration list for PBXNativeTarget "FenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176222C2DF2000C00EC1ED3 /* Debug */,
+				F176222D2DF2000C00EC1ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F17621F22DF2000B00EC1ED3 /* Project object */;
+}
